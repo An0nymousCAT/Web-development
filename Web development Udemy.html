@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Html Document</title>
     <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet font" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet font" href="https://fonts.googleapis.com/css?family=Trirong">
 </head>
-<body>
+<ul class="navbar">
+    <li class="nav"><a href="#HOME">Home</a></li>
+    <li class="nav"><a href="#Projects">Projects</a></li>
+    <li class="nav"><a href="#About">About Us</a></li>
+    <li class="nav"><a href="#Contact">Contact Us</a></li>
+</ul>
+<body style="background-image: url(./bg.jpg);">
+    <div class="parallex">
+        <div class="parallex-content"> 
+            <h5>HTML & CSS</h5>
+            <p style="margin:-150px;font-size:30px">Learning to code ....</p>
+        </div>
+    </div>
+
 <h1>Html and CSS</h1>
 <h2>This is a educational site used for learning html, javascript,css,php and web development like a professional</h2>
 <!--First paragraph-->
@@ -17,15 +30,108 @@ Adipisci molestias ullam sunt saepe, incidunt consectetur natus fugiat a fuga do
 </p>
 
 <!--Second paragraph (1000 words)-->
-<p class="intro">
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-Vitae illo praesentium, provident facilis nemo quisquam esse eligendi qui neque, quia consequatur, eum sint incidunt rerum atque? 
-Molestias sapiente magni, sequi maxime dicta ea ipsam unde molestiae perferendis nisi deserunt quisquam ducimus reprehenderit quia fugiat provident.
-Itaque eligendi corporis distinctio voluptate nam totam eveniet numquam a, voluptas blanditiis esse molestiae corrupti ut repellendus. 
-Temporibus nam obcaecati ad expedita commodi a laudantium deleniti sed? Sit fugiat autem, sint incidunt, quod repudiandae a doloribus odit voluptates placeat ipsa dolorum recusandae. 
-Officia, temporibus explicabo. Possimus vel rem omnis doloribus a hic optio veritatis tempora.
-</p>
-<img src="./web-development.jpg" alt="Web development">
-<img src="./webd.jpge.jpeg" alt="another image">
+<div class="gradiant-bg">
+    <p class="intro">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Vitae illo praesentium, provident facilis nemo quisquam esse eligendi qui neque, quia consequatur, eum sint incidunt rerum atque? 
+        Molestias sapiente magni, sequi maxime dicta ea ipsam unde molestiae perferendis nisi deserunt quisquam ducimus reprehenderit quia fugiat provident.
+        Itaque eligendi corporis distinctio voluptate nam totam eveniet numquam a, voluptas blanditiis esse molestiae corrupti ut repellendus. 
+        Temporibus nam obcaecati ad expedita commodi a laudantium deleniti sed? Sit fugiat autem, sint incidunt, quod repudiandae a doloribus odit voluptates placeat ipsa dolorum recusandae. 
+        Officia, temporibus explicabo. Possimus vel rem omnis doloribus a hic optio veritatis tempora.
+        </p>
+</div>
+
+</div>
+<img class="web-image" src="./web-development.jpg" alt="Web development">
+<img class="web-image" src="./webd.jpge.jpeg" alt="another image">
+<img class="web-image" src="./web-d.jpg">
+
+<div class="example-div">
+    This is an example div that shows the use of margine and padding. This div hass 100px padding and 50px margin applied.
+    <code>padding</code>adds space inside the.
+    <code>margin</code>adds space outside the div.
+    </div> 
+
+
+<div class="table">
+    <h2 style="text-align:centre;font-size: 100px;">Unordered list</h2>
+    <ul>
+        <li style="font-size: 70px;">Item one</li>
+        <li style="font-size: 70px;">Item two</li>
+        <li style="font-size: 70px;">Item three</li>
+        <li style="font-size: 70px;">Item four</li>
+        <hr />
+        <hr />
+
+    </ul>
+
+    <h3 style="font-size: 100px; text-align: center;">Ordered list</h3>
+    <ol>
+        <li style="font-size: 70px;">Ordere item 1</li>
+        <li style="font-size: 70px;">Ordered item 2</li>
+        <li style="font-size: 70px;">ordered item 3</li>
+        <li style="font-size: 70px;">ordered item 4</li>
+
+    </ol>
+    
+</div>
+<a href="https://academy.hackthebox.com/modules" 
+style="display: block; 
+padding:100px; 
+margin:50px; 
+background-color: rgb(233, 95, 95); 
+border: 50px; 
+text-align: center; 
+font-size: 70px;"
+target="_blank"
+>Hack the box<a>
+
+<p class="text-shadow">This site is developed by Tanmay Bhardwaj. You can contact him by clicking on the logo below </p>
+
+<hr />
+<hr />
+
+
+
+<!--THe end -->
+<a href="https://github.com" target="_blank",><img class="image_effect" src="./Tanmay's logo.png" alt="My logo"></a>
+
+<!--<img class="image_effect" src="./Tanmay's logo.png" alt="My logo"-->
+<div class="bg-image">
+    <h2>Background Image</h2>
+</div>
+</div>
+
+
+
+
+<!--HTML FORM-->
+<div class="myform">
+    <h2>Sign Up</h2>
+    <hr />
+
+    <label style="padding: 10px 20px;margin: 10px 10px;" for="name">Name</label>
+    <br/>
+    <input style="padding: 10px 20px;margin: 10px 10px;" type="text" name="name" placeholder="Your name" />
+    
+    <br/>
+
+    <label style="padding: 10px 20px;margin: 10px 10px;" for="email">Email</label>
+    <br/>
+    <input style="padding: 10px 20px;margin: 10px 10px;" type="email" name="email" placeholder="Your Email" />
+
+    <br/>
+
+    <label style="padding: 10px 20px;margin: 10px 10px;" for="password">password</label>
+    <br/>
+    <input style="padding: 10px 20px;margin: 10px 10px;" type="password" name="password" placeholder="Enter a password" />
+    
+<div class="button">
+    <button style="padding: 10px 5px;background-color: tomato;margin: 30px 10px;" type="submit">Submit</button>
+    <button style="padding: 10px 5px;background-color: tomato;margin: 30px 10px;" type="reset">Reset</button>
+</div>
+</div>
+
+
 </body>
 </html>

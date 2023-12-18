@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color:rgb(255, 255, 255);
 }
 
 h1{
@@ -13,6 +13,14 @@ h2{
     text-align: center;
     text-decoration: dotted;
 }
+h3{
+    color:orange;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: dotted;
+}
+
+
 
 #paragraph{
     text-decoration: underline;
@@ -28,6 +36,142 @@ h2{
 }
 /* Applying Font to our Html Page*/
 h1,h2,h3,h4,h5,h6,body{
-    font-family: "Sofia";
-    
+    font-family: "Trirong", serif;
+}
+
+.web-image{
+    display: block;
+    margin: 20px auto 20px auto;
+    max-width: 50%;
+    border: 5px white;
+}
+
+@media only screen and (max-width: 600px){
+    .web-image{
+        max-width: 100%;
+        margin:10px auto
+    }
+}
+
+.example-div{
+    background-color: tomato;
+    border: 1px solid black;
+    padding:100px;
+    margin:50px
+}
+
+
+.table{
+    background-color: rgb(233, 95, 95);
+    border:5px solid rgb(14, 14, 14);
+    padding:300px;
+    margin:50px
+}
+
+.image_effect{
+    display: block;
+    margin:30px auto 30px auto;
+    max-width:50%;
+    border-radius: 20px;
+    display:block;
+    text-align: center;
+
+}
+
+.image_effect:hover{
+    border:10px solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #e0e0e0;
+    display:block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .image_effect{
+        max-width: 100%;
+        margin:10px auto
+    }
+}
+
+
+.text-shadow{
+    text-shadow: 5px 10px 18px tomato;
+    display: block;
+    font-size: 60px;
+    text-align: left;
+}
+
+.bg-image{
+    background-image: url("./bgimage.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+
+}
+
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 29, 156);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+}
+
+.nav{
+    display:inline-block;
+    padding: 0px;
+    background-color: rgb(0, 29, 156);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.parallex{
+    height: 50vh;
+    background-image: url("./wave.avif");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: -10px;
+    text-align: center;
+
+}
+
+.parallex-content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: 80px;
+
+}
+
+.gradiant-bg{
+    background-image: linear-gradient(to right, tomato, orange);
+    padding:100px;
+    font-size: 30px;
+}
+
+.myform{
+    padding: 100px;
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: tomato;
+
 }
